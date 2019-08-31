@@ -1,0 +1,16 @@
+Links
+font-family: 'PT Sans', sans-serif;
+
+MyTxState Title
+font-family: 'Rubik', sans-serif;
+
+Name of user
+Post Info
+font-family: 'Noto Serif', serif;
+
+User information
+User Post
+font-family: 'Source Sans Pro', sans-serif;
+
+Types of post
+font-family: 'Lato', sans-serif;

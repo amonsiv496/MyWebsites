@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #E8E3DB;
+}
+.clearfix {
+	overflow: auto;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	list-style: none;
+}
+#navigationSection, #navigationLinksContainer a {
+	color: white;
+}
+
+
+#navigationSection {
+	background-color:  #501214;
+	min-height: 60px;
+	min-width: 995px;
+}
+#myTxState, #navigationLinksContainer li {
+	display: inline-block;
+}
+#myTxState {
+	margin-top: 16px;
+	margin-left: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+#navigationLinksContainer {
+	float: right;
+	margin-top: 18px;
+}
+#navigationLinksContainer li {
+	margin-right: 30px;
+	font-family: 'PT Sans', sans-serif;
+}
+#navigationLinksContainer a:hover {
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+
+/* 31% */
+#userInfoSection {
+	margin: 10px 0 0 1%;
+	width: 30%;
+	display: inline-block;
+	float: left;
+	background-color: #A59987;
+}
+#userName {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.8em;
+	margin-left: 5px;
+}
+#imgAndInfoContainer {
+	margin-left: 5px;
+}
+#profileImg {
+	float: left;
+	width: 320px;
+	height: 340px;
+}
+#userInfoContainer {
+	float: left;
+	background-color: #D0CCC5;
+	width: 300px;
+	margin-top: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#aboutMeSection {
+	background-color: #D0CCC5;
+	width: 300px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	clear: both;
+	float: left;
+}
+
+/* 31% + 69% */
+#postsSection {
+	display: inline-block;
+	background-color: #A59987;
+	margin: 10px 1% 0 1%;
+	width: 67%;
+	min-height: 650px;
+	max-height: 865px;
+	overflow: scroll;
+}
+#userCommentInputSection, #friendsPostsTab, #campusPostsTab, #myPostsTab {
+	margin-left: 8px;
+	margin-top: 8px;
+}
+#typePostContainer input {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	background-color: #501214;
+	color: white;
+	padding: 10px;
+	border: none;
+}
+#typePostContainer input:hover {
+	background-color: #400e10;
+	transition: background 0.5s ease;
+	cursor: pointer;
+}
+#userInputPostButton {
+	padding: 5px 15px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#userInputPostButton:hover {
+	cursor: pointer;
+	background-color: #847A6C;
+	color: white;
+}
+.postsContainer {
+	margin-top: 20px;
+	background-color: #d0ccc5;
+	overflow: auto;
+}
+.postsUserPic {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.post {
+	float: left;
+	width: 80%;
+}
+.postInfo {
+	display: inline-block;
+	margin-left: 5px;
+	font-family: 'Noto Serif', serif;
+}
+.userPost {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#userInfoAndPostsSectionSuperContainer {
+	min-width: 995px;
+}
+
+
+
+
+
+
+
