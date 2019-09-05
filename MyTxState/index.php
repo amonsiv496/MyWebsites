@@ -17,7 +17,7 @@
 	<section id="login-section">
 		<h1>Login</h1>
 		<div id="username-wrapper">
-			<img src="img/username-icon.svg" alt="login-icon" width="30px" height="30px">
+			<img src="img/username-icon.svg" alt="login-icon" width="30px" height="30px" color="white">
 			<textarea id="username-text" placeholder="Username" rows="1" cols="30"></textarea>
 		</div>
 		<div id="password-wrapper">

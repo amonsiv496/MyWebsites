@@ -4,7 +4,17 @@
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
+	color: white;
 }
+body {
+	position: relative;
+	background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../img/tx_state_background_img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/*--------------------------------------------------------------------------------------------*/
 
 #navigation-section {
 	overflow: auto;
@@ -15,51 +25,70 @@
 }
 #navigation-wrapper a {
 	text-decoration: none;
-	color: black;
 	margin-left: 10px;
 }
 #navigation-wrapper a:last-child {
-	margin-right: 20px;
+	/*margin-right: 20px;*/
+	margin-right: 2vw;
 }
 /*--------------------------------------------------------------------------------------------*/
 #login-section {
 	text-align: center;
+	margin-top: 10vw;
+}
+textarea {
+	color: black;
+}
+
+#username-wrapper {
+	margin: 1.2vw 0 0 0;
 }
 #password-wrapper {
-	margin: 15px 0 0 0;
+	/*margin: 15px 0 0 0;*/
+	margin: 1.2vw 0 0 0;
 }
 #forgot-password:after {
 	content: "\A";
 	white-space: pre;
 }
 #get-started-wrapper {
-	margin: 20px 0px 20px 0px;
+	/*margin: 20px 0px 20px 0px;*/
+	margin: 1.2vw 0 2vw 0;
 }
 #create-account-need-help-wrapper {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
+	margin-top: 1.4vw;
 }
 #keep-logged-in-option {
 	display: inline-block;
+	margin-right: 5.5vw;
 }
 #create-account {
-	margin-right: 55px;
+	/*margin-right: 55px;*/
+	margin-right: 5.5vw;
 }
 /*--------------------------------------------------------------------------------------------*/
 footer {
-	position: relative;
+	/*background-color: blue;*/
+	position: absolute;
 	overflow: auto;
-	margin-top: 45px;
+	width: 100vw;
+	height: 5vw;
+	bottom: 0;
+	/*margin-top: 45px;*/
 }
 #footer-list-wrapper {
-	margin-left: 35px;
+	/*margin-left: 35px;*/
+	margin: 2vw 0 0 3vw;
 }
 #footer-list-wrapper li {
 	display: inline-block;
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 }
 #copyright {
 	position: absolute;
 	display: inline-block;
-	right: 35px;
-	top: 0;
+	/*right: 35px;*/
+	/*top: 0;*/
+	right: 3vw;
 }
