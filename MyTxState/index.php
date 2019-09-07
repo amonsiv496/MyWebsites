@@ -19,17 +19,19 @@
 	</section>
 	<section id="login-section">
 		<h1 id="login-title">Login</h1>
-		<div id="username-wrapper">
-			<i id="username-icon" class="fas fa-user"></i>
-			<textarea id="username-text" placeholder="Username" rows="1" cols="30"></textarea>
-		</div>
-		<div id="password-wrapper">
-			<i id="password-icon" class="fas fa-lock"></i>
-			<textarea id="password-text" placeholder="Password" rows="1" cols="30"></textarea>
-		</div>
-		<div id="get-started-wrapper">
-			<a id="get-started" href="#">Get Started</a>
-		</div>
+		<form id="username-password-input-form" method="POST">
+			<div id="username-wrapper">
+				<i id="username-icon" class="fas fa-user"></i>
+				<input id="username-input-text"type="text" name="username" maxlength="30" />
+			</div>
+			<div id="password-wrapper">
+				<i id="password-icon" class="fas fa-lock"></i>
+				<input id="password-input-text" type="password" name="password" maxlength="30" />
+			</div>
+			<div id="get-started-wrapper">
+				<input id="get-started" type="submit" name="get-started-button" value="Get Started"/>
+			</div>
+		</form>
 		<p id="keep-logged-in-option">Keep logged in</p>
 		<a id="forgot-password" href="#">Forgot Password</a>
 		<div id="create-account-need-help-wrapper">

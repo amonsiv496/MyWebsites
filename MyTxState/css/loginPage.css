@@ -5,6 +5,7 @@
 	margin: 0px;
 	text-decoration: none;
 	color: white;
+	border: none;
 }
 body {
 	position: relative;
@@ -13,9 +14,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-
 }
-/*--------------------------------------------------------------------------------------------*/
+/*============================================================================================*/
 #navigation-section {
 	overflow: auto;
 	/*height: 45px;*/
@@ -41,17 +41,17 @@ body {
 	border-bottom: 1px solid white;
 	padding-bottom: 5px;
 }
-/*--------------------------------------------------------------------------------------------*/
+/*============================================================================================*/
 #login-section {
 	text-align: center;
 	margin-top: 4vw;
 }
-textarea {
-	color: black;
-}
 #username-icon, #password-icon {
 	font-size: 25px;
 	margin-right: 10px;
+}
+#username-input-text, #password-input-text {
+	color: black;
 }
 
 
@@ -69,13 +69,15 @@ textarea {
 	content: "\A";
 	white-space: pre;
 }
-#get-started-wrapper {
-	/*margin: 20px 0px 20px 0px;*/
-	margin: 1.2vw 0 2vw 0;
-}
 #get-started {
 	font-family: 'Mukta', sans-serif;
-	font-size: 25px;
+	color: black;
+	width: 245px;
+	margin: 2vw 0 2vw 38px;
+}
+#get-started:hover {
+	background-color: #F2E6D9;
+	cursor: pointer;
 }
 #create-account-need-help-wrapper {
 	/*margin-top: 20px;*/
@@ -103,7 +105,7 @@ textarea {
 	font-style: 15px;
 	font-weight: normal;
 }
-/*--------------------------------------------------------------------------------------------*/
+/*============================================================================================*/
 footer {
 	/*background-color: blue;*/
 	position: absolute;
