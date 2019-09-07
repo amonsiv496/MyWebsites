@@ -4,9 +4,12 @@
 <meta charset="UTF-8">
 <title>MyTxState Login</title>
 <link rel="stylesheet" type="text/css" href="css/loginPage.css">
+<link href="rsrcs/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik|Noto+Serif|Source+Sans+Pro|Lato|Roboto|Mukta" rel="stylesheet">
 </head>
 <body>
 	<section id="navigation-section">
+		<img id="txstate-bobcat" src="img/txstate-bobcat.png" alt="txstate-bobcat.png" height="150px" width="150px">
 		<nav id="navigation-wrapper">
 			<a href="#">Login</a>
 			<a href="#">About us</a>
@@ -15,13 +18,13 @@
 		</nav>
 	</section>
 	<section id="login-section">
-		<h1>Login</h1>
+		<h1 id="login-title">Login</h1>
 		<div id="username-wrapper">
-			<img src="img/username-icon.svg" alt="login-icon" width="30px" height="30px" color="white">
+			<i id="username-icon" class="fas fa-user"></i>
 			<textarea id="username-text" placeholder="Username" rows="1" cols="30"></textarea>
 		</div>
 		<div id="password-wrapper">
-			<img src="img/lock-icon.svg" alt="lock-icon" width="30px" height="30px">
+			<i id="password-icon" class="fas fa-lock"></i>
 			<textarea id="password-text" placeholder="Password" rows="1" cols="30"></textarea>
 		</div>
 		<div id="get-started-wrapper">

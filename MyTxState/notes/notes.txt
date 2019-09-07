@@ -1,3 +1,5 @@
+myProfile.php
+
 Links
 font-family: 'PT Sans', sans-serif;
 
@@ -14,3 +16,18 @@ font-family: 'Source Sans Pro', sans-serif;
 
 Types of post
 font-family: 'Lato', sans-serif;
+
+--------------------------------------------------------------------
+index.php
+
+Login Title
+font-family: 'Roboto', sans-serif;
+
+Get Started button
+font-family: 'Mukta', sans-serif;
+
+Keep Logged in
+font-family: 'Mukta', sans-serif;
+
+Footer text
+font-family: 'Mukta', sans-serif;
