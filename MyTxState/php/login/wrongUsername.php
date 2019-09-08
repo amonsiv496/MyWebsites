@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>MyTxState Login</title>
-<link rel="stylesheet" type="text/css" href="css/loginPage.css">
-<link href="rsrcs/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../css/loginPage.css">
+<link href="../../rsrcs/fontawesome-free-5.10.2-web/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik|Noto+Serif|Source+Sans+Pro|Lato|Roboto|Mukta" rel="stylesheet">
 </head>
 <body>
 	<section id="navigation-section">
-		<img id="txstate-bobcat" src="img/txstate-bobcat.png" alt="txstate-bobcat.png" height="150px" width="150px">
+		<img id="txstate-bobcat" src="../../img/txstate-bobcat.png" alt="txstate-bobcat.png" height="150px" width="150px">
 		<nav id="navigation-wrapper">
 			<a href="#">Login</a>
 			<a href="#">About us</a>
@@ -17,6 +17,7 @@
 			<a href="#">Contact</a>
 		</nav>
 	</section>
+	<h1>WRONG USERNAME!</h1>
 	<section id="login-section">
 		<h1 id="login-title">Login</h1>
 		<form id="username-password-input-form" method="POST">
@@ -55,13 +56,13 @@
 					$row = $result->fetch_array(MYSQLI_NUM);
 
 					if ($_POST['username'] == $row[0] AND $_POST['password'] == $row[1]) {
-						header('Location: myProfile.php');
+						header('Location: ../../myProfile.php');
 					} else {
 						if ($_POST['username'] != $row[0]) {
-							header('Location: php/login/wrongUsername.php');
+							header('Location: wrongUsername.php');
 						}
 						else {
-							header('Location: php/login/wrongPassword.php');
+							header('Location: wrongPassword.php');
 						}
 					}
             	}
