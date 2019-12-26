@@ -17,7 +17,6 @@
 			<a href="#">Contact</a>
 		</nav>
 	</section>
-	<h1>WRONG PASSWORD!</h1>
 	<section id="login-section">
 		<h1 id="login-title">Login</h1>
 		<form id="username-password-input-form" method="POST">
@@ -33,6 +32,7 @@
 				<input id="get-started" type="submit" name="get-started-button" value="Get Started"/>
 			</div>
 		</form>
+		<h1>WRONG PASSWORD!</h1>
 		<?php 
 		$serverName = "localhost";
 		$userName = "admin";
